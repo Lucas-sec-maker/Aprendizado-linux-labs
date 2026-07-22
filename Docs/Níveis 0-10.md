@@ -15,6 +15,8 @@ Realizar o primeiro acesso remoto ao servidor do jogo utilizando o protocolo SSH
 
 ### 💻 Comando Utilizado
 ```bash
-ssh bandit0@bandit.labs.overthewire.org -p 2220
+ssh bandit00@bandit.labs.overthewire.org -p 2220
 ```
-###
+### Resultado Final
+<img width="1769" height="976" alt="image" src="https://github.com/user-attachments/assets/f7b282e6-a791-4439-9328-88b97c462195" />
+
