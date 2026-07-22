@@ -1,7 +1,7 @@
 # 📍 Nível 0 -> Nível 1
 
 ### 🎯 Objetivo
-Realizar o primeiro acesso remoto ao servidor do jogo utilizando o protocolo SSH.
+Realizar o primeiro acesso remoto ao servidor do jogo utilizando o protocolo SSH no terminal ( Ubuntu ) 
 
 ---
 
