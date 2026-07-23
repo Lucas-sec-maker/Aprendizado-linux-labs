@@ -33,5 +33,21 @@ ps:cat é o comando para ler um arquivo dentroo de um diretório
 ### Resultados ( Com alguns testes )
 <img width="1833" height="927" alt="image" src="https://github.com/user-attachments/assets/b302b04b-e340-4055-8dc1-d60b688e1f23" />
 
+# 📍 Nível 2 -> Nível 3
+
+## 🎯 Objetivo
+Manipulação de arquivos nomeados com sinais e espaços ( "-" " " )
+    - No Linux, arquivos com sinais, no caso, o hífen, podem ser confundidos com comandos ( -- confi, --help).
+    No desafio anterior isso foi resolvido.7
+    - Com espaços , o sistema pode achar que o espaço está separando comandos ou argumentos.
+```
+#Como eu resolvi: -> nome do arquivo :  "--spaces in this filename--"
+comando:
+        cat -- "--space in this filename--"
+        cat "./--space in this filename--"
+```
+
+
+    
 
 
