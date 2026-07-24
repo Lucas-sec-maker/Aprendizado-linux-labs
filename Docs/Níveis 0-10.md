@@ -46,6 +46,18 @@ comando:
         cat -- "--space in this filename--"
         cat "./--space in this filename--"
 ```
+# 📍Nível 3 -> Nível 4
+
+## 🎯 Objetivo 
+Manipulação de pastas ocultas dentro de um diretório. Um arquivo ou diretório oculto se faz oculto quanto é nomeado com ponto no inicio.
+```
+#Nome do arquivo --> touch .meu_arquivo
+#Comando para mostrar o arquivo:
+ls -a ( exibe todos os arquivos ocustos , mais a hierarquia de pastas. A atual e a anterior )
+la -A ( faz a mesma coisa, mas sem exibir os pontos de hierarquia de pasta )
+```
+<img width="720" height="273" alt="image" src="https://github.com/user-attachments/assets/b493288e-c140-450f-b7b9-3b143be3395a" />
+
 
 
     
