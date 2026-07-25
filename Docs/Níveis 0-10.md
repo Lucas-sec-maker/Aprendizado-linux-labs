@@ -58,6 +58,25 @@ la -A ( faz a mesma coisa, mas sem exibir os pontos de hierarquia de pasta )
 ```
 <img width="720" height="273" alt="image" src="https://github.com/user-attachments/assets/b493288e-c140-450f-b7b9-3b143be3395a" />
 
+# 📍 Nível 4 -> Nível 5
+
+## 🎯 Objetivo
+Encontrar a chave do próximo nível dentro de um diretório cheio de arquivos, onde apenas um é legível para humanos.Alguns arquivos podem estar em códgios escritos para sejam lidos pelos níveis mais baixos ( à nível de máquina, ou seja, binários )
+    
+ <img width="812" height="211" alt="image" src="https://github.com/user-attachments/assets/ff666aa6-9be1-474c-a986-31e7c5df3028" />
+
+ Para achar devo descobrir qual é o arquivo que possui um formato legível para humanos. Entrei no diretório e listei os arquivos.Logo em seguida, listei todos os arquivos com o comando "file" 
+ ```
+file ./*
+```
+Além de listar os arquivos, o comando "file" analise o tipo de conteúdo no arquivo. Adicionando "*", faço isso com todos os arquivos de uma vez.E como todos os arquivos começam com hífen, é necessário adicionar "./". Resultando no comando acima
+
+<img width="842" height="345" alt="image" src="https://github.com/user-attachments/assets/ce223411-d510-468d-9565-bd22427baa52" />
+
+Olhando para os arquivos, aquele legível para humanos tem o formado ASCII text.
+
+# 📍 Nível 5 -> Nível 6
+
 
 
     
