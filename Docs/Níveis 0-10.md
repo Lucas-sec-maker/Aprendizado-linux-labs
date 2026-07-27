@@ -86,6 +86,18 @@ Eis o comando:
 ```
 find inhere/ -type f -size 1033c ! -executable
 
+```
+"find inhere" --> vai fazer uma procura dentro da pasta "inhere"
+
+"-type f" --> é um argumento que define o tipo do arquivo.No caso, o tipo "file"
+
+"-size 1033c" --> indica qual o tamnho do arquivo que estou procurando
+
+"! -executable" --> o ponto de exclamação inverte a lógica do argumento "-executable". " NOT executable"
+
+<img width="683" height="285" alt="image" src="https://github.com/user-attachments/assets/c418dd95-ba3f-41b4-a15b-ad2dcabb2822" />
+
+
 
 
 
