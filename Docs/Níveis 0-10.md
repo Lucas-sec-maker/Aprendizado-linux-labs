@@ -75,7 +75,18 @@ Além de listar os arquivos, o comando "file" analise o tipo de conteúdo no arq
 
 Olhando para os arquivos, aquele legível para humanos tem o formado ASCII text.
 
-# 📍 Nível 5 -> Nível 6
+# 📍 Nível 5 -> Nível 6 
+
+## 🎯 Objetivos
+Encontrar a chave entre os diretórios, sabendo que é um arquivo não executável, legível para humanos e com o tamanho de 1033bytes.Isso tudo em meio à muitas páginas.
+
+<img width="793" height="599" alt="image" src="https://github.com/user-attachments/assets/21955551-cc59-4bce-80e1-1aaaf1748c0c" />
+
+Eis o comando:
+```
+find inhere/ -type f -size 1033c ! -executable
+
+
 
 
 
